@@ -1,8 +1,17 @@
-import React from 'react';
-import {Main} from '@screens';
+import RegisterComponent from './_AppNavigator/registerComponent';
+import { Navigation } from 'react-native-navigation';
+import { colors } from '@constants';
+import MainStack from './_AppNavigator/stacks/main';
 
-const App = () => {
-  return <Main />;
-};
 
-export default App;
+RegisterComponent()
+
+Navigation.setDefaultOptions({
+  statusBar: {
+    style: 'dark',
+    backgroundColor: colors.WHITE
+  }
+})
+
+
+export default MainStack;

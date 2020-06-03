@@ -1,6 +1,7 @@
 export {
   View,
   FlatList,
+  Dimensions,
   TouchableOpacity,
   Keyboard,
   SafeAreaView,
