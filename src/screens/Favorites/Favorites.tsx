@@ -2,14 +2,10 @@ import React, {FC, useCallback} from 'react';
 import {SafeAreaView, Text, TouchableOpacity, Dimensions} from '@components';
 import styles from './styles';
 import {Navigation} from 'react-native-navigation';
-import {INFORMATION, PROFILE, screensId} from '../../_AppNavigator';
+import {INFORMATION, PROFILE, screensId, FAVORITES, MORE} from '../../_AppNavigator';
 import {colors} from '@constants';
 
-type Props = {
-  props: any;
-};
-
-const Favorites: FC<Props> = (props: any) => {
+const Favorites: FC<{}> = (props: any) => {
   const handlePress = useCallback(() => {
     Navigation.push(props.componentId, {
       component: {
@@ -63,6 +59,27 @@ const Favorites: FC<Props> = (props: any) => {
     });
   }, []);
 
+  const showModal = useCallback(() => {
+    Navigation.showModal({
+      stack: {
+        children: [
+          {
+            component: {
+              name: MORE,
+              options: {
+                topBar: {
+                  title: {
+                    text: 'More',
+                  },
+                },
+              },
+            },
+          },
+        ],
+      },
+    });
+  }, []);
+
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Favorites Screen</Text>
@@ -71,6 +88,9 @@ const Favorites: FC<Props> = (props: any) => {
       </TouchableOpacity>
       <TouchableOpacity onPress={goToProfile}>
         <Text style={styles.infoText}>Profile</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={showModal}>
+        <Text style={styles.infoText}>Show More Screen to modal</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
