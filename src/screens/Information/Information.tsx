@@ -19,6 +19,7 @@ const Information: FC<Props> = (props, {
         name: PROFILE,
         options: {
           layout: {
+            componentBackgroundColor: colors.BLUE,
             backgroundColor: colors.BLUE,
           }
         }
