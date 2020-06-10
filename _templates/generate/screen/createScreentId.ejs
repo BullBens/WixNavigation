@@ -1,0 +1,6 @@
+---
+inject: true
+to: src/constants/screensId.ts
+after: //NEW COMPONENTS ID
+---
+    <%= h.changeCase.pascal(name) %>Id: '<%= h.changeCase.pascal(name) %>ScreenId',

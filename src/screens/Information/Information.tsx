@@ -2,8 +2,7 @@ import React, { FC, useCallback } from "react";
 import { SafeAreaView, Text, TouchableOpacity } from "@components";
 import styles from "./styles";
 import { Navigation } from "react-native-navigation";
-import { PROFILE, screensId } from "../../_AppNavigator";
-import { colors } from "@constants";
+import { colors, screensName, screensId } from "@constants";
 
 
 type Props = { componentId: string } & {
@@ -16,10 +15,11 @@ const Information: FC<Props> = (props, {
   const goToProfile = useCallback(() => {
     Navigation.push(props.componentId, {
       component: {
-        name: PROFILE,
+        id: screensId.ProfileId,
+        name: screensName.Profile,
         options: {
           layout: {
-            backgroundColor: colors.BLUE,
+            backgroundColor: colors.PURPURE_DARK,
           }
         }
       }

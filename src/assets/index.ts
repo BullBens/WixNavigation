@@ -1,5 +1,5 @@
 export default {
-  LOGO: require("./logo.png"),
-  HOME_ICON: require("./home.png"),
-  FAVORITE_ICON: require("./favorite.png"),
+  LOGO: require("./images/logo.png"),
+  HOME_ICON: require("./images/home.png"),
+  FAVORITE_ICON: require("./images/favorite.png"),
 };

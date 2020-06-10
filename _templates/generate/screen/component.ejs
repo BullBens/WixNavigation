@@ -1,0 +1,30 @@
+---
+to: src/screens/<%=h.changeCase.pascal(name)%>/<%=h.changeCase.pascal(name)%>.tsx
+---
+import React from 'react'
+import { useEffect, useCallback, useMemo, useTranslation, useState } from '@hooks'
+import { View, Text } from '@components'
+import { TScreenParams } from '@typings'
+import {connect} from 'react-redux';
+import styles from './styles';
+
+const <%= h.changeCase.pascal(name) %>: React.FC<TProps> = (props, {}) => {
+	// <%= h.changeCase.pascal(name) %> screen data.
+	const { t } = useTranslation()
+
+	return (
+		<View style={styles.container}>
+			<Text><%= h.changeCase.pascal(name) %>Screen</Text>
+		</View>
+	)
+}
+
+const mapStateToProps = (state: any) => ({
+	
+});
+
+export default connect(mapStateToProps)(<%= h.changeCase.pascal(name) %>);
+
+type TProps = TScreenParams['<%= h.changeCase.pascal(name) %>'] & {
+
+}

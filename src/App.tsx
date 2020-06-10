@@ -1,8 +1,12 @@
+import React, { FC, useEffect } from 'react';
 import RegisterComponent from './_AppNavigator/registerComponent';
 import { Navigation } from 'react-native-navigation';
-import { colors } from '@constants';
+import { colors, screensName, screensId } from '@constants';
 import MainStack from './_AppNavigator/stacks/main';
-
+import AsyncStorage from '@react-native-community/async-storage';
+import { View, Text } from '@components';
+import { connect } from 'react-redux';
+import initStack from './_AppNavigator/stacks/init';
 
 RegisterComponent()
 
@@ -14,4 +18,5 @@ Navigation.setDefaultOptions({
 })
 
 
-export default MainStack;
+export default initStack
+

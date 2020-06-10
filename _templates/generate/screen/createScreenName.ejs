@@ -1,0 +1,6 @@
+---
+inject: true
+to: src/constants/screensName.ts
+after: //NEW COMPONENTS NAME
+---
+    <%= h.changeCase.pascal(name) %>: 'navigation.<%= h.changeCase.pascal(name) %>.screen',

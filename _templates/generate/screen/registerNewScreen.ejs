@@ -1,0 +1,6 @@
+---
+inject: true
+to: src/_AppNavigator/registerComponent.tsx
+after: //REGISTER NEW SCREEN
+---
+    Navigation.registerComponent(screensName.<%= h.changeCase.pascal(name) %>, () => <%= h.changeCase.pascal(name) %>);

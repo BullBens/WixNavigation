@@ -1,8 +1,7 @@
 import { Navigation } from "react-native-navigation";
-import { HOME, FAVORITES, screensId, PROFILE } from "../index";
+import { screensName, screensId } from '@constants'
 import { colors } from "@constants";
 import assets from "@assets";
-
 
 const MainStack = () => {
     Navigation.setRoot({
@@ -13,33 +12,6 @@ const MainStack = () => {
                     layout: {
                         backgroundColor: colors.WHITE
                     },
-                    // animations: {
-                    //     setRoot: {
-                    //         x: {
-                    //             from: 0, // Mandatory, initial value
-                    //             to: 1, // Mandatory, end value
-                    //             duration: 1000, // Default value is 300 ms
-                    //             startDelay: 400, // Default value is 0
-                    //         },
-                    //         scaleX: {
-
-
-                    //             from: 0, // Mandatory, initial value
-                    //             to: 1, // Mandatory, end value
-                    //             duration: 1000, // Default value is 300 ms
-                    //             startDelay: 400,
-
-                    //         },
-                    //         alpha: {
-                    //             from: 0, // Mandatory, initial value
-                    //             to: 1, // Mandatory, end value
-
-                    //             duration: 400, // Default value is 300 ms
-                    //             startDelay: 100, // Default value is 0
-                    //             interpolation: 'accelerate' // Optional
-                    //         }
-                    //     }
-                    // },
                     bottomTabs: {
                         backgroundColor: colors.BLACK,
                         animate: true,
@@ -52,18 +24,14 @@ const MainStack = () => {
                             children: [
                                 {
                                     component: {
-                                        id: screensId.Home,
-                                        name: HOME,
+                                        id: screensId.SettingsId,
+                                        name: screensName.Settings,
                                         options: {
                                             topBar: {
-                                                background: {
-                                                    color: colors.RED
-                                                },
                                                 visible: false,
-                                                animate: false
                                             }
                                         }
-                                    },
+                                    }
                                 },
                             ],
                             options: {
@@ -81,34 +49,9 @@ const MainStack = () => {
                             children: [
                                 {
                                     component: {
-                                        id: screensId.Favorites,
-                                        name: FAVORITES,
+                                        id: screensId.SettingsId,
+                                        name: screensName.Settings,
                                         options: {
-                                            animations: {
-                                                setStackRoot: {
-                                                    x: {
-                                                        from: 0, // Mandatory, initial value
-                                                        to: 1, // Mandatory, end value
-                                                        duration: 1000, // Default value is 300 ms
-                                                        startDelay: 400, // Default value is 0
-                                                    },
-                                                    // scaleX: {
-                                                    //     from: 0, // Mandatory, initial value
-                                                    //     to: 1, // Mandatory, end value
-                                                    //     duration: 1000, // Default value is 300 ms
-                                                    //     startDelay: 400,
-
-                                                    // },
-                                                    // alpha: {
-                                                    //     from: 0, // Mandatory, initial value
-                                                    //     to: 1, // Mandatory, end value
-
-                                                    //     duration: 400, // Default value is 300 ms
-                                                    //     startDelay: 100, // Default value is 0
-                                                    //     interpolation: 'accelerate' // Optional
-                                                    // }
-                                                }
-                                            },
                                             topBar: {
                                                 visible: false,
                                             }
@@ -121,7 +64,7 @@ const MainStack = () => {
                                     selectedIconColor: colors.RED,
                                     iconColor: colors.WHITE,
                                     icon: assets.FAVORITE_ICON,
-                                    text: "Favorites",
+                                    text: "Settings",
                                 }
                             }
                         }
