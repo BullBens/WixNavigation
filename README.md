@@ -16,19 +16,19 @@ https://wix.github.io/react-native-navigation/docs/before-you-start/
     - #### npm run android - for Android
 
 ### Create new screen
-#### npm run g:screen
+##### npm run g:screen
 
 ### Create new component
-#### npm run g:component
+##### npm run g:component
 
 ### Create new screen component
-#### npm run g:screen-component
+##### npm run g:screen-component
 
 ### Create new reducer
-#### npm run g:reducer
+##### npm run g:reducer
 
 ### Create new helper
-#### npm run g:helper
+##### npm run g:helper
 
 <!-- # IOS
 
