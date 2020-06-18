@@ -1,0 +1,6 @@
+---
+inject: true
+to: src/constants/componentName.ts
+after: // SET NEW COMPONENT NAME
+---
+    <%= h.changeCase.pascal(name) %>: 'navigation.<%= h.changeCase.pascal(name) %>.component',

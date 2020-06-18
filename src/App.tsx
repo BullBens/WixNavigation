@@ -1,8 +1,6 @@
-import React from 'react';
-import {Main} from '@screens';
+import RegisterComponent from './_AppNavigator/registerComponent';
+import initStack from './_AppNavigator/stacks/init';
 
-const App = () => {
-  return <Main />;
-};
+RegisterComponent();
 
-export default App;
+export default initStack;
