@@ -2,8 +2,9 @@
  * @format
  */
 
-import {AppRegistry} from 'react-native';
+import { Navigation } from 'react-native-navigation';
 import App from './src/App';
-import {name as appName} from './app.json';
+import { i18n } from '@services'; // need for React i18n initialization
 
-AppRegistry.registerComponent(appName, () => App);
+
+Navigation.events().registerAppLaunchedListener(() => { App() });

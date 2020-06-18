@@ -1,15 +1,15 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet} from '@components';
+import {colors, sizes} from '@constants';
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    flex: 1,
   },
-  title: {
-    
-    fontSize: 20,
+  btnStyle: {
+    padding: 16,
+    borderBottomColor: colors.RED,
+    borderBottomWidth: 1,
   },
 });
-
-export default styles;

@@ -41,9 +41,12 @@
       "@assets": ["src/assets/index"],
       "@components": ["src/components/index"],
       "@constants": ["src/constants/index"],
+      "@helpers": ["src/helpers/index"],
+      "@hooks": ["src/hooks/index"],
+      "@reducers/*": ["src/reducers/*"],
       "@screens": ["src/screens/index"],
       "@services": ["src/services/index"],
-      "@types": ["src/types/index"]
+      "@typings": ["src/typings/index"]
     } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */
