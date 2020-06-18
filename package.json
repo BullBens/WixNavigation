@@ -10,7 +10,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "pod:clean": "cd ios && pod deintegrate && pod clean && pod install && cd ../",
+    "pod:clean": "cd ios && pod deintegrate && pod install && cd ../",
     "postinstall": "npm run pod:clean",
     "watchman": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && npm cache verify && npm install && npm start -- --reset-cache",
     "g:screen": "hygen generate screen",
