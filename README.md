@@ -1,19 +1,19 @@
 # wix\react-native-navigation example
 
-## Documentation  
+## Documentation
+
 https://wix.github.io/react-native-navigation/docs/before-you-start/
 
 ### Install and start example application
 
-1. #### Clone repo
-2. #### npm i
-3. 
-  - #### cd ios && pod deintegrate && pod install - for ios 
-  - #### cd android && gradlew clean - for android
-4. 
-  - #### npm run ios - for ios
-  - #### npm run android - for android 
-
+- #### Clone repo
+- #### npm i
+- #### Clean build folders
+  - #### cd ios && pod deintegrate && pod install - for IOS
+  - #### cd android && gradlew clean - for Android
+- #### Start project 
+    - #### npm run ios - for IOS
+    - #### npm run android - for Android
 
 ### Create new screen
 #### npm run g:screen
@@ -29,10 +29,6 @@ https://wix.github.io/react-native-navigation/docs/before-you-start/
 
 ### Create new helper
 #### npm run g:helper
-
-
-
-
 
 <!-- # IOS
 
