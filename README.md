@@ -8,10 +8,10 @@ https://wix.github.io/react-native-navigation/docs/before-you-start/
 
 - #### Clone repo
 - #### npm i
-- #### Clean build folders
+- #### Clean build folders:
   - #### cd ios && pod deintegrate && pod install - for IOS
   - #### cd android && gradlew clean - for Android
-- #### Start project 
+- #### Start project:
     - #### npm run ios - for IOS
     - #### npm run android - for Android
 
