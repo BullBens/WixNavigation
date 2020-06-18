@@ -1,5 +1,4 @@
-import { Dimensions } from "@components";
-
+import {Dimensions} from '@components';
 
 export const sizes = {
   width: Dimensions.get('screen').width,

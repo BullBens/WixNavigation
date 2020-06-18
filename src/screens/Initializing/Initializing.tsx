@@ -1,41 +1,43 @@
-import React from 'react'
-import { useEffect, useCallback, useMemo, useTranslation, useState } from '@hooks'
-import { View, Text } from '@components'
-import { TScreenParams } from '@typings'
-import { connect } from 'react-redux';
+import React from 'react';
+import {useEffect, useState} from '@hooks';
+import {View, Text, TouchableOpacity, Image} from '@components';
+import {TScreenParams, TGlobalState} from '@typings';
+import {connect} from 'react-redux';
 import styles from './styles';
-import MainStack from '../../_AppNavigator/stacks/main';
-import initStack from '../../_AppNavigator/stacks/init';
-import authStack from '../../_AppNavigator/stacks/auth';
-import i18next from 'i18next';
+import MainStackBottomTab from '../../_AppNavigator/stacks/mainStackBottomTab';
+import MainStackSideMenu from '../../_AppNavigator/stacks/mainStackSideMenu';
+import assets from '@assets';
 
-const Initializing: React.FC<TProps> = ({ appLang }) => {
-	// Initializing screen data.
-	const { t } = useTranslation()
-	const [isAuth, setIsAuth] = useState(true)
+const Initializing: React.FC<TProps> = ({appLang}) => {
+  // Initializing screen data.
+  const [typeNavigation, setTypeNavigation] = useState<'sideMenu' | 'bottomTab' | null>(null);
 
-	useEffect(() => {
+  useEffect(() => {
+    typeNavigation === null ? null : typeNavigation == 'sideMenu' ? MainStackSideMenu() : MainStackBottomTab();
+  }, [typeNavigation, appLang]);
 
-		isAuth ? MainStack() : authStack()
-		return () => {
-			debugger
-		}
-	}, [isAuth, appLang])
+  return (
+    <View style={styles.container}>
+      <View style={styles.logoView}>
+        <Image source={assets.LOGO} />
+        <Text style={styles.titleStyle}>wix/react-native-navigation</Text>
+      </View>
+      <View style={styles.setNavigationView}>
+        <TouchableOpacity style={styles.btnStyle} onPress={() => setTypeNavigation('sideMenu')}>
+          <Text style={styles.titleStyle}>SideMenu</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.btnStyle} onPress={() => setTypeNavigation('bottomTab')}>
+          <Text style={styles.titleStyle}>BottomTab</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
 
-
-	return (
-		<View style={styles.container}>
-			<Text>InitializingScreen</Text>
-		</View>
-	)
-}
-
-const mapStateToProps = (state: any) => ({
-	appLang: state.appLang
+const mapStateToProps = (state: TGlobalState) => ({
+  appLang: state.appLang,
 });
 
 export default connect(mapStateToProps)(Initializing);
 
-type TProps = TScreenParams['Initializing'] & {
-
-}
+type TProps = TScreenParams['Initializing'] & {};

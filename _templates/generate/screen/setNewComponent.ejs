@@ -1,0 +1,6 @@
+---
+inject: true
+to: src/_AppNavigator/registerComponent.tsx
+after: // SET NEW COMPONENT
+---
+    Components.set(componentName.<%= h.changeCase.pascal(name) %>, <%= h.changeCase.pascal(name) %>);

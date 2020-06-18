@@ -1,23 +1,16 @@
-import { StyleSheet } from "react-native";
-import { colors } from "@constants";
+import {StyleSheet} from '@components';
+import {colors, sizes} from '@constants';
 
-const styles = StyleSheet.create({
-    container: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        flex: 1
-    },
-    title: {
-        paddingHorizontal: 32,
-        textAlign: 'center',
-        fontSize: 24,
-        color: colors.WHITE
-    },
-    infoText: {
-        marginTop: 26,
-        fontSize: 20,
-        textDecorationLine: 'underline'
-    }
-})
-
-export default styles
+export default StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    flex: 1,
+  },
+  link: {
+    paddingHorizontal: 16,
+    textAlign: 'center',
+    color: colors.RED,
+    textDecorationLine: 'underline',
+  },
+});

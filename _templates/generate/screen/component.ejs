@@ -4,9 +4,13 @@ to: src/screens/<%=h.changeCase.pascal(name)%>/<%=h.changeCase.pascal(name)%>.ts
 import React from 'react'
 import { useEffect, useCallback, useMemo, useTranslation, useState } from '@hooks'
 import { View, Text } from '@components'
-import { TScreenParams } from '@typings'
+import { TScreenParams,TGlobalState } from '@typings'
 import {connect} from 'react-redux';
 import styles from './styles';
+
+type TProps = TScreenParams['<%= h.changeCase.pascal(name) %>'] & {
+
+}
 
 const <%= h.changeCase.pascal(name) %>: React.FC<TProps> = (props, {}) => {
 	// <%= h.changeCase.pascal(name) %> screen data.
@@ -19,12 +23,9 @@ const <%= h.changeCase.pascal(name) %>: React.FC<TProps> = (props, {}) => {
 	)
 }
 
-const mapStateToProps = (state: any) => ({
+const mapStateToProps = (state: TGlobalState) => ({
 	
 });
 
 export default connect(mapStateToProps)(<%= h.changeCase.pascal(name) %>);
 
-type TProps = TScreenParams['<%= h.changeCase.pascal(name) %>'] & {
-
-}

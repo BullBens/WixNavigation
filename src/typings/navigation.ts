@@ -1,20 +1,26 @@
-import { screensName } from "@constants"
-
 export type TScreenParams = {
-	Initializing: TPropsScreen & {}
-	Auth: TPropsScreen & {}
-	Settings: TPropsScreen & {
-		appGlobalState: any
-	}
-	Example: TPropsScreen & {}
-	Main: TPropsScreen & {}
-}
+	Profile: TPropsScreen & {}
+	Test3: TPropsScreen & {}
+	Test2: TPropsScreen & {}
+	Test1: TPropsScreen & {}
+	Test: TPropsScreen & {}
+  Information: TPropsScreen & {};
+  Modal: TPropsScreen & {
+    text: string;
+  };
+  Initializing: TPropsScreen & {};
+  Auth: TPropsScreen & {};
+  Settings: TPropsScreen & {
+    appGlobalState: any;
+  };
+  Main: TPropsScreen & {
+    componentId: string;
+  };
+};
 
-
-
-type TPropsScreen = any
+type TPropsScreen = any;
 // type TPropsScreen = {
 // 	dispatch: any,
 // 	componentId: string,
-	
+
 // }

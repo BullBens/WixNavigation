@@ -1,37 +1,30 @@
-import React, { FC, useCallback } from "react";
-import { SafeAreaView, Text, TouchableOpacity } from "@components";
-import styles from "./styles";
-import { Navigation } from "react-native-navigation";
-import { colors, screensName, screensId } from "@constants";
+import React from 'react';
+import {useEffect, useCallback, useMemo, useTranslation, useState} from '@hooks';
+import {View, Text, TouchableOpacity, Linking} from '@components';
+import {TScreenParams, TGlobalState} from '@typings';
+import {connect} from 'react-redux';
+import styles from './styles';
 
+const Information: React.FC<TProps> = (props, {}) => {
+  // Information screen data.
+  const url: string = 'https://wix.github.io/react-native-navigation/docs/before-you-start/';
+  const {t} = useTranslation();
 
-type Props = { componentId: string } & {
-}
+  const openUrl = useCallback(() => {
+    Linking.openURL(url);
+  }, []);
 
-const Information: FC<Props> = (props, {
-
-}) => {
-
-  const goToProfile = useCallback(() => {
-    Navigation.push(props.componentId, {
-      component: {
-        id: screensId.ProfileId,
-        name: screensName.Profile,
-        options: {
-          layout: {
-            backgroundColor: colors.PURPURE_DARK,
-          }
-        }
-      }
-    });
-  }, [])
-
-  return <SafeAreaView style={styles.container}>
-    <Text style={styles.title}>We also assume you are working on a Mac with XCode and Android Studio installed and setup. You can also make it work in a Linux distribution, of course, but in that case bare in mind that some sections of the docs that deal with iOS might not be relevant to you.</Text>
-    <TouchableOpacity onPress={goToProfile}>
-      <Text style={styles.infoText}>Profile</Text>
-    </TouchableOpacity>
-  </SafeAreaView>
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity onPress={openUrl}>
+        <Text style={styles.link}>{url}</Text>
+      </TouchableOpacity>
+    </View>
+  );
 };
 
-export default Information;
+const mapStateToProps = (state: TGlobalState) => ({});
+
+export default connect(mapStateToProps)(Information);
+
+type TProps = TScreenParams['Information'] & {};

@@ -1,6 +1,6 @@
 // import storage from '../store';
 import axios from 'axios';
-import {TGenerateOptions, TFormatResponse} from '@types';
+import {TGenerateOptions, TFormatResponse} from '@typings';
 
 const baseURL = __DEV__ ? 'https://fishon.artjoker.ua/api' : 'https://fishon.artjoker.ua/api';
 

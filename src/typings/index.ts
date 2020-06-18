@@ -1,5 +1,6 @@
 // REQUESTS
 export * from './navigation';
+export * from './globalState';
 
 export type TGenerateOptions = {
   method: 'POST' | 'GET';

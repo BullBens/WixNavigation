@@ -1,27 +1,27 @@
 import React from 'react'
 import { useEffect, useCallback, useMemo, useTranslation, useState } from '@hooks'
 import { View, Text } from '@components'
-import { TScreenParams } from '@typings'
+import { TScreenParams,TGlobalState } from '@typings'
 import {connect} from 'react-redux';
 import styles from './styles';
 
-const Auth: React.FC<TProps> = (props, {}) => {
-	// Auth screen data.
+const Profile: React.FC<TProps> = (props, {}) => {
+	// Profile screen data.
 	const { t } = useTranslation()
 
 	return (
 		<View style={styles.container}>
-			<Text>AuthScreen</Text>
+			<Text>ProfileScreen</Text>
 		</View>
 	)
 }
 
-const mapStateToProps = (state: any) => ({
+const mapStateToProps = (state: TGlobalState) => ({
 	
 });
 
-export default connect(mapStateToProps)(Auth);
+export default connect(mapStateToProps)(Profile);
 
-type TProps = TScreenParams['Auth'] & {
+type TProps = TScreenParams['Profile'] & {
 
 }

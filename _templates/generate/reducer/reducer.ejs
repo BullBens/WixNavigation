@@ -2,7 +2,6 @@
 to: src/reducers/<%=h.changeCase.camelCase(name)%>.ts
 ---
 import { takeLatest, put, call, select } from 'redux-saga/effects'
-import { push } from '@services'
 
 const GET_<%=h.changeCase.constant(name)%> = '[<%=h.changeCase.camelCase(name)%>] GET_<%=h.changeCase.constant(name)%>'
 const SET_<%=h.changeCase.constant(name)%> = '[<%=h.changeCase.camelCase(name)%>] SET_<%=h.changeCase.constant(name)%>'

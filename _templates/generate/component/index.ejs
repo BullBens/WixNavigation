@@ -6,9 +6,13 @@ import { useCallback, useMemo } from '@hooks'
 import { View } from '@components'
 import styles from './styles'
 
+type TProps = {
+
+}
+
 const <%= h.changeCase.pascal(name) %>: React.FC<TProps> = ({}) => {
   return (
-  <View>
+  <View style={styles.container}>
     {/* content */}
   </View>
   )
@@ -16,6 +20,3 @@ const <%= h.changeCase.pascal(name) %>: React.FC<TProps> = ({}) => {
 
   export default <%= h.changeCase.pascal(name) %>;
 
-  type TProps = {
-
-  }
