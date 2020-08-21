@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* wixReactNativeNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wixReactNativeNavigationTests.m */; };
+		0B4584FA38E49D498E9F0636 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E1180FB3B83F319026BCE4 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a */; };
+		11269561D0CD327A8CDCCA4E /* libPods-wixReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F44AFCC99F96F6FC3FA83D /* libPods-wixReactNativeNavigation.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		19A5F757092244C747E43D6C /* libPods-wixReactNativeNavigation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A672A8138CD026382BB888BE /* libPods-wixReactNativeNavigation-tvOS.a */; };
-		268D27BA74F076C1706FB087 /* libPods-wixReactNativeNavigation-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1184A421D6D230A9B1B49241 /* libPods-wixReactNativeNavigation-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* wixReactNativeNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wixReactNativeNavigationTests.m */; };
-		8175C83D44CC698E66BAEDE2 /* libPods-wixReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD14309BE15ABD60E4955ED2 /* libPods-wixReactNativeNavigation.a */; };
-		F0C2BCD7707550117E234E8E /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41838FAC8630D6CD3DFE9C06 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a */; };
+		58CE6DF5EB6FA6986DF864E3 /* libPods-wixReactNativeNavigation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C26ECECAEA680A73686F6 /* libPods-wixReactNativeNavigation-tvOS.a */; };
+		606C669C7B948777D424C2B4 /* libPods-wixReactNativeNavigation-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF27D27B7B2FFF33908C124 /* libPods-wixReactNativeNavigation-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,7 @@
 		00E356EE1AD99517003FC87E /* wixReactNativeNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wixReactNativeNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* wixReactNativeNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wixReactNativeNavigationTests.m; sourceTree = "<group>"; };
-		1184A421D6D230A9B1B49241 /* libPods-wixReactNativeNavigation-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		126AC54B326660A3BFFBAF86 /* Pods-wixReactNativeNavigation-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOS.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOS/Pods-wixReactNativeNavigation-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		015C26ECECAEA680A73686F6 /* libPods-wixReactNativeNavigation-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* wixReactNativeNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wixReactNativeNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = wixReactNativeNavigation/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = wixReactNativeNavigation/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,20 +52,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = wixReactNativeNavigation/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wixReactNativeNavigation/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wixReactNativeNavigation/main.m; sourceTree = "<group>"; };
+		1CB2ABCE5A091AF5E6D19A0F /* Pods-wixReactNativeNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation/Pods-wixReactNativeNavigation.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* wixReactNativeNavigation-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wixReactNativeNavigation-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* wixReactNativeNavigation-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wixReactNativeNavigation-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41838FAC8630D6CD3DFE9C06 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B1BB0E102A516A33D75DA0B /* Pods-wixReactNativeNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation/Pods-wixReactNativeNavigation.debug.xcconfig"; sourceTree = "<group>"; };
-		A672A8138CD026382BB888BE /* libPods-wixReactNativeNavigation-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBAEDC16CD813A10E0FA444D /* Pods-wixReactNativeNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation/Pods-wixReactNativeNavigation.release.xcconfig"; sourceTree = "<group>"; };
-		C956C23FA0253394B1CF240E /* Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOSTests/Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAA485D5A84B4FB18E34F63A /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD07A738EB3311876026387F /* Pods-wixReactNativeNavigation-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOS/Pods-wixReactNativeNavigation-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D0C1CAD939ACE04F3738BF08 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig"; sourceTree = "<group>"; };
-		D5157CC9CFC50F60FDAF6158 /* Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOSTests/Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		786857E16EF6F0E62BFB7609 /* Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOSTests/Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AF27D27B7B2FFF33908C124 /* libPods-wixReactNativeNavigation-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8380047B8F21A9A97A40A87A /* Pods-wixReactNativeNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation/Pods-wixReactNativeNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		9F04413FA948E798F9677220 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FCE58730A384D57492A72DC /* Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOSTests/Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A94F9854D7C0AD4C18862600 /* Pods-wixReactNativeNavigation-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOS.release.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOS/Pods-wixReactNativeNavigation-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A9E1180FB3B83F319026BCE4 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDB5A75959D852597A7EC20 /* Pods-wixReactNativeNavigation-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-tvOS/Pods-wixReactNativeNavigation-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F44AFCC99F96F6FC3FA83D /* libPods-wixReactNativeNavigation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E238B7216D9BF4FB673AE1D2 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig"; path = "Target Support Files/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FD14309BE15ABD60E4955ED2 /* libPods-wixReactNativeNavigation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wixReactNativeNavigation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C2BCD7707550117E234E8E /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a in Frameworks */,
+				0B4584FA38E49D498E9F0636 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8175C83D44CC698E66BAEDE2 /* libPods-wixReactNativeNavigation.a in Frameworks */,
+				11269561D0CD327A8CDCCA4E /* libPods-wixReactNativeNavigation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A5F757092244C747E43D6C /* libPods-wixReactNativeNavigation-tvOS.a in Frameworks */,
+				58CE6DF5EB6FA6986DF864E3 /* libPods-wixReactNativeNavigation-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268D27BA74F076C1706FB087 /* libPods-wixReactNativeNavigation-tvOSTests.a in Frameworks */,
+				606C669C7B948777D424C2B4 /* libPods-wixReactNativeNavigation-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FD14309BE15ABD60E4955ED2 /* libPods-wixReactNativeNavigation.a */,
-				A672A8138CD026382BB888BE /* libPods-wixReactNativeNavigation-tvOS.a */,
-				1184A421D6D230A9B1B49241 /* libPods-wixReactNativeNavigation-tvOSTests.a */,
-				41838FAC8630D6CD3DFE9C06 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a */,
+				B4F44AFCC99F96F6FC3FA83D /* libPods-wixReactNativeNavigation.a */,
+				015C26ECECAEA680A73686F6 /* libPods-wixReactNativeNavigation-tvOS.a */,
+				7AF27D27B7B2FFF33908C124 /* libPods-wixReactNativeNavigation-tvOSTests.a */,
+				A9E1180FB3B83F319026BCE4 /* libPods-wixReactNativeNavigation-wixReactNativeNavigationTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		463300A1E62988F9F25AF4EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CB2ABCE5A091AF5E6D19A0F /* Pods-wixReactNativeNavigation.debug.xcconfig */,
+				8380047B8F21A9A97A40A87A /* Pods-wixReactNativeNavigation.release.xcconfig */,
+				AEDB5A75959D852597A7EC20 /* Pods-wixReactNativeNavigation-tvOS.debug.xcconfig */,
+				A94F9854D7C0AD4C18862600 /* Pods-wixReactNativeNavigation-tvOS.release.xcconfig */,
+				9FCE58730A384D57492A72DC /* Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig */,
+				786857E16EF6F0E62BFB7609 /* Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig */,
+				E238B7216D9BF4FB673AE1D2 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig */,
+				9F04413FA948E798F9677220 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* wixReactNativeNavigationTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D5FE9D6623AC4F1FA2616B3F /* Pods */,
+				463300A1E62988F9F25AF4EE /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5FE9D6623AC4F1FA2616B3F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B1BB0E102A516A33D75DA0B /* Pods-wixReactNativeNavigation.debug.xcconfig */,
-				BBAEDC16CD813A10E0FA444D /* Pods-wixReactNativeNavigation.release.xcconfig */,
-				CD07A738EB3311876026387F /* Pods-wixReactNativeNavigation-tvOS.debug.xcconfig */,
-				126AC54B326660A3BFFBAF86 /* Pods-wixReactNativeNavigation-tvOS.release.xcconfig */,
-				C956C23FA0253394B1CF240E /* Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig */,
-				D5157CC9CFC50F60FDAF6158 /* Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig */,
-				CAA485D5A84B4FB18E34F63A /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig */,
-				D0C1CAD939ACE04F3738BF08 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "wixReactNativeNavigationTests" */;
 			buildPhases = (
-				B391B782E02E9D269DFE1F75 /* [CP] Check Pods Manifest.lock */,
+				3C605142B79AB65DBEFB7294 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				B48EF04605E4E6A9F3B4ACE8 /* [CP] Copy Pods Resources */,
+				DC7948B9BBE9FBFB2D6B4311 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "wixReactNativeNavigation" */;
 			buildPhases = (
-				62C4A19227F7AEC776F74D03 /* [CP] Check Pods Manifest.lock */,
+				65DF07E1A528AD907A478714 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B014C8A7CF0F87A01CD82C8D /* [CP] Copy Pods Resources */,
+				18465BCE36AC5520DCB3F825 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wixReactNativeNavigation-tvOS" */;
 			buildPhases = (
-				5AFEB17E604518D99621DB2B /* [CP] Check Pods Manifest.lock */,
+				E0B59BF368D5EEE5DF304876 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wixReactNativeNavigation-tvOSTests" */;
 			buildPhases = (
-				EEC1C1DF96B930ADB74674BC /* [CP] Check Pods Manifest.lock */,
+				D5935DFCE6BE894EC2EDA6BB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,65 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		5AFEB17E604518D99621DB2B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wixReactNativeNavigation-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62C4A19227F7AEC776F74D03 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wixReactNativeNavigation-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B014C8A7CF0F87A01CD82C8D /* [CP] Copy Pods Resources */ = {
+		18465BCE36AC5520DCB3F825 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,7 +425,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wixReactNativeNavigation/Pods-wixReactNativeNavigation-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B391B782E02E9D269DFE1F75 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3C605142B79AB65DBEFB7294 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,7 +461,51 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B48EF04605E4E6A9F3B4ACE8 /* [CP] Copy Pods Resources */ = {
+		65DF07E1A528AD907A478714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wixReactNativeNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5935DFCE6BE894EC2EDA6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wixReactNativeNavigation-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7948B9BBE9FBFB2D6B4311 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -553,7 +553,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests/Pods-wixReactNativeNavigation-wixReactNativeNavigationTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EEC1C1DF96B930ADB74674BC /* [CP] Check Pods Manifest.lock */ = {
+		E0B59BF368D5EEE5DF304876 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -568,7 +568,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wixReactNativeNavigation-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-wixReactNativeNavigation-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -680,7 +680,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA485D5A84B4FB18E34F63A /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig */;
+			baseConfigurationReference = E238B7216D9BF4FB673AE1D2 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -703,7 +703,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C1CAD939ACE04F3738BF08 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig */;
+			baseConfigurationReference = 9F04413FA948E798F9677220 /* Pods-wixReactNativeNavigation-wixReactNativeNavigationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -723,7 +723,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B1BB0E102A516A33D75DA0B /* Pods-wixReactNativeNavigation.debug.xcconfig */;
+			baseConfigurationReference = 1CB2ABCE5A091AF5E6D19A0F /* Pods-wixReactNativeNavigation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -750,7 +750,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBAEDC16CD813A10E0FA444D /* Pods-wixReactNativeNavigation.release.xcconfig */;
+			baseConfigurationReference = 8380047B8F21A9A97A40A87A /* Pods-wixReactNativeNavigation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -771,7 +771,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD07A738EB3311876026387F /* Pods-wixReactNativeNavigation-tvOS.debug.xcconfig */;
+			baseConfigurationReference = AEDB5A75959D852597A7EC20 /* Pods-wixReactNativeNavigation-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -799,7 +799,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 126AC54B326660A3BFFBAF86 /* Pods-wixReactNativeNavigation-tvOS.release.xcconfig */;
+			baseConfigurationReference = A94F9854D7C0AD4C18862600 /* Pods-wixReactNativeNavigation-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -827,7 +827,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C956C23FA0253394B1CF240E /* Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9FCE58730A384D57492A72DC /* Pods-wixReactNativeNavigation-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -854,7 +854,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5157CC9CFC50F60FDAF6158 /* Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 786857E16EF6F0E62BFB7609 /* Pods-wixReactNativeNavigation-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

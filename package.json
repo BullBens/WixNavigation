@@ -21,10 +21,13 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
     "@types/react-redux": "^7.1.9",
     "axios": "^0.19.2",
     "babel-plugin-module-resolver": "^4.0.0",
+    "detox": "^17.4.3",
     "i18next": "^19.4.5",
+    "jest-circus": "^26.4.1",
     "react": "16.11.0",
     "react-i18next": "^11.5.0",
     "react-native": "0.62.2",
@@ -64,5 +67,16 @@
       "json",
       "node"
     ]
+  },
+  "detox": {
+    "test-runner": "jest",
+    "configurations": {
+      "ios.release": {
+        "binaryPath": "./ios/build/Build/Products/Release-iphonesimulator/wixReactNativeNavigation.app",
+        "build": "xcodebuild -workspace ios/wixReactNativeNavigation.xcworkspace -configuration release -scheme wixReactNativeNavigation -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 11"
+      }
+    }
   }
 }
