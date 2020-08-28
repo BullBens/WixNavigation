@@ -1,10 +1,5 @@
 export const componentId = {
   //NEW COMPONENTS ID
-    InformationId: 'InformationScreenId',
-    ModalId: 'ModalScreenId',
-  InitializingId: 'InitializingScreenId',
-  SettingsId: 'SettingsScreenId',
+  InformationId: 'InformationScreenId',
   MainId: 'MainScreenId',
-  SideMenuId: 'SideMenuId',
-  SideMenuButtonId: 'SideMenuButtonId',
 };

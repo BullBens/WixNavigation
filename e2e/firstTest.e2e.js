@@ -1,13 +1,18 @@
-describe('Example', () => {
-  beforeEach(async () => {
-    await device.reloadReactNative();
-  });
+import {render, fireEvent} from '@testing-library/react-native';
+import {Main, Information} from '@screens';
 
-  it('should have "Step One" section', async () => {
-    await expect(element(by.text('SideMenu'))).toBeVisible();
-  });
+// configure({adapter: new Adapter()});
 
-  it('should have "See Your Changes" section', async () => {
-    await expect(element(by.text('BottomTab'))).toBeVisible();
+describe('Testing react navigation', () => {
+  test('Render main screen', async () => {
+    await element(by.text('Open information screen')).tap();
   });
 });
+// it('Main screen render correctly', () => {
+//   const {toJSON} = render(<Main />);
+//   expect(toJSON()).toMatchSnapshot();
+// });
+// it('Information screen render correctly', () => {
+//   const {toJSON} = render(<Information />);
+//   expect(toJSON()).toMatchSnapshot();
+// });

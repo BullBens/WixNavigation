@@ -5,35 +5,25 @@ import {PersistGate} from 'redux-persist/integration/react';
 import storage from '../store';
 import {
   // IMPORT NEW SCREEN
-  Profile,
   Main,
-  Settings,
-  Initializing,
-  Modal,
   Information,
+  Initializing,
 } from '@screens';
 
-import{
-  // IMPORT NEW COMPONENT
+import // IMPORT NEW COMPONENT
 
-}from '@components';
+'@components';
 
 import {componentName} from '@constants';
 import {ActivityIndicator} from 'react-native';
-import {SideMenu, SideMenuButton} from '@components';
 
 export default () => {
   const Components = new Map<string, React.FC<any>>();
   // SET NEW COMPONENT
 
-  Components.set(componentName.Profile, Profile);
   Components.set(componentName.Information, Information);
-  Components.set(componentName.Modal, Modal);
-  Components.set(componentName.Initializing, Initializing);
-  Components.set(componentName.Settings, Settings);
   Components.set(componentName.Main, Main);
-  Components.set(componentName.SideMenu, SideMenu);
-  Components.set(componentName.SideMenuButton, SideMenuButton);
+  Components.set(componentName.Initializing, Initializing);
 
   Components.forEach((C: any, key: any) => {
     Navigation.registerComponent(key, () => (props) => (

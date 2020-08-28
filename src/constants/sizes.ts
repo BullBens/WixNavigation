@@ -1,4 +1,5 @@
-import {Dimensions} from '@components';
+import { Dimensions } from "react-native";
+
 
 export const sizes = {
   width: Dimensions.get('screen').width,
